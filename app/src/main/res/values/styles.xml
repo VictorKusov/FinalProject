@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">#0000FF</item>
+    </style>
+
+    <style name="ButtonNumber">
+        <item name="android:minHeight">70dp</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:background">@color/color_glass</item>
+    </style>
+
+
+</resources>

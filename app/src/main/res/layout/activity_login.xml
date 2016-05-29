@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_blue_to_lagun"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ed_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:ems="10"
+        android:hint="@string/mail_hint"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ed_login"
+        android:layout_alignStart="@+id/ed_login"
+        android:layout_below="@+id/ed_login"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/pass_hint"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ed_password"
+        android:layout_alignLeft="@+id/btn_register"
+        android:layout_alignRight="@+id/ed_password"
+        android:layout_alignStart="@+id/btn_register"
+        android:layout_below="@+id/ed_password"
+        android:layout_marginTop="28dp"
+        android:text="@string/btn_login" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ed_password"
+        android:layout_alignLeft="@+id/ed_password"
+        android:layout_alignRight="@+id/ed_password"
+        android:layout_alignStart="@+id/ed_password"
+        android:layout_below="@+id/btn_login"
+        android:text="@string/txt_btn_reg" />
+
+    <ProgressBar
+        android:id="@+id/pb_bar_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="color_glass">#00efeeee</color>
+    <color name="color_black">#000000</color>
+
+    <color name="icon_background">#da8441</color>
+    <color name="indicator">#dc955e</color>
+    <color name="tab_head_background">#da8441</color>
+    <color name="category_iteb_back">#edc37b</color>
+    <color name="category_item">#e6ccb9</color>
+    <color name="activity_payment_back">#8bea9f1c</color>
+
+    <color name="tab_top">#2b6ad6</color>
+    <color name="icon_text">#8bd2ee</color>
+    <color name="light_blue">#c8f5ec</color>
+
+</resources>

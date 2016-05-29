@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MoneyKeeper</string>
+
+    <!-- register activity strings-->
+    <string name="txt_btn_reg">Register</string>
+    <string name="txt_email">E-mail</string>
+    <string name="txt_log">Login</string>
+    <string name="txt_pass">Password</string>
+    <string name="btn_txt_cancel">Back</string>
+    <string name="txt_login_ok">Login Successful</string>
+    <!-- ***********************  -->
+
+    <string name="btn_login">Connect</string>
+    <string name="logout">loging out</string>
+    <string name="cancel">cancel</string>
+    <string name="btn_ok">ok</string>
+    <string name="mail_hint">enter mail</string>
+    <string name="pass_hint">enter password</string>
+    <string name="pie_description">\"Диаграмма расходов\"</string>
+
+</resources>
